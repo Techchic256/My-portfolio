@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px;
+}
+
+.navelements ul{
+list-style: none;
+display: flex;
+gap: 30px;
+
+}
+.navbutton{
+    background-color: blueviolet;
+    color: beige;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.navbutton button{
+    background: none;
+    outline: none;
+    border: none;
+    color: beige;
+}
