@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/*THIS IS NAV BAR*/
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 5px 20px;
+    background-color: rgb(230, 138, 138);
 }
 
 .navelements ul{
@@ -18,15 +21,218 @@ display: flex;
 gap: 30px;
 
 }
+
+.navelements ul li {
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+}
+
 .navbutton{
     background-color: blueviolet;
     color: beige;
     padding: 10px 20px;
     cursor: pointer;
 }
+
 .navbutton button{
     background: none;
     outline: none;
     border: none;
     color: beige;
+}
+
+/*THIS IS HERO SECTION*/
+
+.herosection {
+    background-color: rgb(0, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herosection .herodescription {
+    max-width: 450px;
+}
+
+.herodescription h1 {
+    padding: 20px;
+    font-size: 36px;
+}
+
+.herodescription button {
+    background: none;
+    background-color: aqua;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.heroimage img{
+    border-radius: 20px;
+}
+
+/*MY WORK SECTION*/
+
+.workmetrics {
+    display: flex ;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.workmetrics h4{
+    font-size: 18px;
+}
+
+.workmetrics .work-metrics{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+.workmetrics .work-metrics h6{
+    font-size: 20px;
+    margin: 30px 20px;
+}
+
+
+.workprojects{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.workprojects img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* BRANDS WORKED WITH SECTION*/
+
+.topbrands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+}
+
+.brands .topbrands{
+    max-width: 450px;
+}
+
+.topbrands h4{
+    font-size: 20px;
+}
+
+.logos{
+ display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;   
+}
+
+.portfoliolook{
+    display: flex;
+    justify-content: center;
+    margin: 50px 30px;
+} 
+
+.portfoliolook h4{
+    font-size: 20px;
+}
+
+.portfolio-pdts{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin: 50px 50px ;
+}
+
+.thedesigner{
+   display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px; 
+}
+
+.thedesigner img{
+   width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover; 
+}
+
+/*CLIENTS*/
+
+.clientele{
+  display: flex ;
+  align-items: center;
+  gap: 40px;
+    justify-content: center;
+    margin-bottom: 30px;  
+}
+
+.clientele .clientelereviews{
+max-width: 450px;
+}
+
+.clientelereviews h4{
+    font-size: 20px;
+}
+
+/*REACH ME*/
+
+.information{
+   display: flex ;
+    justify-content: space-between;
+    margin: 50px 30px; 
+}
+
+.information h2{
+    font-size: 20px;
+}
+
+.info .information{
+    display: flex;
+    gap: 20px;
+    align-items: center
+}
+
+.info .information{
+    font-size: 20px;
+}
+
+.info-contact{
+  display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;  
+}
+
+.info-contact h2{
+font-size: 20px;
+}
+
+.links{
+ display: flex;
+    gap: 20px;
+    align-items: center   
+}
+
+.links h2{
+    font-size: 20px;
 }
