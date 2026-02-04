@@ -82,7 +82,7 @@ gap: 30px;
 .workmetrics {
     display: flex ;
     justify-content: space-between;
-    margin: 50px 30px;
+    margin: 20px 30px;
 }
 
 .workmetrics h4{
@@ -97,12 +97,11 @@ gap: 30px;
     margin: 30px 20px;
 }
 
-.workmetrics .work-metrics h6{
+.work-metrics h6{
     font-size: 20px;
-    margin: 30px 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px;
 }
 
 
@@ -131,7 +130,7 @@ gap: 30px;
     margin-bottom:30px;
 }
 
-.brands .topbrands{
+.topbrands{
     max-width: 300px;
     justify-content: center;
     align-items: center;
@@ -140,6 +139,9 @@ gap: 30px;
 
 .topbrands h4{
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logos{
@@ -167,7 +169,7 @@ gap: 30px;
     gap: 30px;
     justify-content: center;
     margin: 50px 50px ;
-    background-color: aqua;
+    border-radius: 40px;
 }
 
 .thedesigner{
@@ -193,17 +195,23 @@ gap: 30px;
   align-items: center;
   gap: 40px;
     justify-content: center;
-    margin-bottom: 30px;  
     background-color: aqua;
+    padding:50px 80px ;
 }
 
 .clientele .clientelereviews{
 max-width: 450px;
+padding: 25px;
+border-radius: 15px;
 }
 
 .clientelereviews h4{
     font-size: 20px;
-    background-color: aqua;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
 }
 
 /*REACH ME*/
@@ -256,4 +264,109 @@ font-size: 20px;
     align-items: center;
     font-size: 20px;
     justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY*/
+@media(max-width:768px){
+    .clientele{
+        padding: 15px 25px;
+    }
+}
+
+.clientelereviews{
+    flex-direction: column;
+}
+
+.navelements{
+    display: none;
+}
+
+.herosection{
+    flex-direction: column-reverse;
+}
+
+.heroimage img{
+    width: 100%;
+}
+
+.workmetrics h4{
+    font-size: 14px;
+}
+
+.workmetrics.work-metrics h6{
+    font-size: 10px;
+}
+
+.workprojects{
+    flex-direction: column;
+}
+
+.workprojects img{
+    width: 300px;
+    height: 200px;
+}
+
+.logos{
+    flex-direction: column;
+}
+
+.logos img{
+width: 300px;
+height: 200px;
+}
+
+.thedesigner{
+    flex-direction: column;
+}
+
+.thedesigner .designedworks img{
+    width: 300px;
+    height: 200px;
+}
+
+.info h2{
+    flex-direction: column;
+}
+
+.information h2{
+    flex-direction: column;
+}
+
+.information{
+    font-size: 10px;
+}
+
+.info-contact{
+    flex-direction: column;
+}
+
+.info-contact{
+    font-size: 10px;
+}
+
+.links{
+    flex-direction: column;
+}
+
+.links{
+    font-size: 10px;
+}
+
+.rights{
+    flex-direction: column;
+}
+
+.rights{
+    font-size: 10px;
 }
