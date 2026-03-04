@@ -64,7 +64,7 @@ gap: 30px;
 
 .herodescription button {
     background: none;
-    background-color: aqua;
+    background-color: rgb(3, 14, 14);
     color: whitesmoke;
     padding: 10px 20px;
     border: none;
@@ -115,23 +115,24 @@ gap: 30px;
 }
 
 .workprojects img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
     object-fit: cover;
 }
 
 /* BRANDS WORKED WITH SECTION*/
 
-.topbrands{
+.brands{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom:30px;
+    padding: 20px;
 }
 
-.topbrands{
-    max-width: 300px;
+.brands.topbrands{
+    max-width: 200px;
     justify-content: center;
     align-items: center;
     margin: 30px 20px;
@@ -142,6 +143,7 @@ gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .logos{
@@ -151,6 +153,12 @@ gap: 30px;
     justify-content: center;
     margin-bottom: 30px; 
     background-color: aqua;  
+}
+
+.logos img{
+width: 150px;
+    height: 150px;
+    border-radius: 20px;   
 }
 
 .portfoliolook{
@@ -170,6 +178,11 @@ gap: 30px;
     justify-content: center;
     margin: 50px 50px ;
     border-radius: 40px;
+}
+
+.portfolio-pdts button{
+    background-color: black;
+    color: whitesmoke;
 }
 
 .thedesigner{
@@ -277,96 +290,3 @@ font-size: 20px;
 
 
 
-/*MEDIA QUERY*/
-@media(max-width:768px){
-    .clientele{
-        padding: 15px 25px;
-    }
-}
-
-.clientelereviews{
-    flex-direction: column;
-}
-
-.navelements{
-    display: none;
-}
-
-.herosection{
-    flex-direction: column-reverse;
-}
-
-.heroimage img{
-    width: 100%;
-}
-
-.workmetrics h4{
-    font-size: 14px;
-}
-
-.workmetrics.work-metrics h6{
-    font-size: 10px;
-}
-
-.workprojects{
-    flex-direction: column;
-}
-
-.workprojects img{
-    width: 300px;
-    height: 200px;
-}
-
-.logos{
-    flex-direction: column;
-}
-
-.logos img{
-width: 300px;
-height: 200px;
-}
-
-.thedesigner{
-    flex-direction: column;
-}
-
-.thedesigner .designedworks img{
-    width: 300px;
-    height: 200px;
-}
-
-.info h2{
-    flex-direction: column;
-}
-
-.information h2{
-    flex-direction: column;
-}
-
-.information{
-    font-size: 10px;
-}
-
-.info-contact{
-    flex-direction: column;
-}
-
-.info-contact{
-    font-size: 10px;
-}
-
-.links{
-    flex-direction: column;
-}
-
-.links{
-    font-size: 10px;
-}
-
-.rights{
-    flex-direction: column;
-}
-
-.rights{
-    font-size: 10px;
-}
